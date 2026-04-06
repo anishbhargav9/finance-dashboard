@@ -1,18 +1,40 @@
-# React + Vite
+# Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a simple finance dashboard built using React. It allows users to track financial activity, view summaries, and understand spending patterns through charts and insights.
 
-Currently, two official plugins are available:
+## Features
+- Summary cards showing total balance, income, and expenses
+- Time-based visualization using a line chart
+- Category-based visualization using a pie chart
+- Transactions table with filtering and search functionality
+- Role-based interface with Viewer and Admin modes
+- Ability to add transactions using a form
+- Basic edit functionality for transactions
+- Data persistence using localStorage
+- Responsive layout for different screen sizes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React (Vite)
+- JavaScript
+- Recharts
+- CSS
 
-## React Compiler
+## Setup Instructions
+Clone the repository and run the project locally:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+git clone https://github.com/anishbhargav9/finance-dashboard.git  
+cd finance-dashboard  
+npm install  
+npm run dev  
 
-Note: This will impact Vite dev & build performances.
+## Approach
+The application is built using a component-based architecture in React. State is managed using React hooks such as useState and useEffect. Financial data is processed dynamically to calculate summaries and generate insights.
 
-## Expanding the ESLint configuration
+Role-based UI behavior is implemented on the frontend to simulate different user permissions without backend authentication.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+https://finance-dashboard-gzijxveq6-anishbhargav9s-projects.vercel.app/
+
+## Author
+Anish Bhargav Reddy Challa
